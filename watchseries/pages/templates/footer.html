@@ -1,24 +1,55 @@
 {% load static %}
 
+
 <footer class="container-fluid text-white bg-dark">
     <div class="row pt-4 pb-4 d-flex justify-content-around">
       <section class="col-md-4">
-        <h5>Album</h5>
+        <h4>WatchSeries</h4>
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a href="#" class="nav-link text-white">Baby</a>
+            <a href=""{% url 'home' %}"" class="nav-link text-white">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-white">Models</a>
+            <a href="#" class="nav-link text-white">Como fazer o cadastro</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-white">Family</a>
+            <a href="#" class="nav-link text-white">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="{% url 'favoritos' %}" class="nav-link text-white">Favoritos</a>
           </li>
         </ul>
       </section>
 
       <section class="col-md-4">
-        <h5>Contato</h5>
+        <h4>Genêros</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Comédia</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Romance</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Drama</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Ação</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Terror</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Animação</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="col-md-4">
+        <h4>Contato</h4>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a href="tel:+5513111111111" class="nav-link text-white">Tel: (13) 9 9999-9999</a>

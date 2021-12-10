@@ -1,0 +1,55 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% load static %}
+
+        
+    {% block content %}
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-12 text-dark text-center my-3">
+                    <h1>Favoritos</h1>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "card border-dark mb-3 mx-3" style="max-width: 15rem;">
+                    <img class="card-img-top" src="{% static 'assent/missa.jpg' %}" alt="Imagem de capa do card">
+                    <div class = "card-body" >
+                        <h5 class = "card-title">Missa da Meia Noite</h5>
+                        <p class = "card-text">A chegada de um jovem sacerdote carismático traz milagres, mistérios e um fervor religioso renovado a uma cidade moribunda e desesperada por fé.</p>
+                        <a href="#" class="btn btn-primary" style = "background-color: #b8860b;">Remover favoritos</a>
+                    </div>
+                </div>
+                <div class = "card border-dark mb-3 mx-3" style="max-width: 15rem;">
+                    <img class="card-img-top" src="{% static 'assent/missa.jpg' %}" alt="Imagem de capa do card">
+                    <div class = "card-body" >
+                        <h5 class = "card-title">Como fazer o cadastro</h5>
+                        <p class = "card-text">Clique no botão abaixo que te levaremos ao tutorial de como se cadastrar e do porquê.</p>
+                        <a href="#" class="btn btn-primary" style = "background-color: #b8860b;">Remover favoritos</a>
+                    </div>
+                </div>
+                <div class = "card border-dark mb-3 mx-3" style="max-width: 15rem;">
+                    <img class="card-img-top" src="{% static 'assent/missa.jpg' %}" alt="Imagem de capa do card">
+                    <div class = "card-body" >
+                        <h5 class = "card-title">Como fazer o cadastro</h5>
+                        <p class = "card-text">Clique no botão abaixo que te levaremos ao tutorial de como se cadastrar e do porquê.</p>
+                        <a href="#" class="btn btn-primary" style = "background-color: #b8860b;">Remover favoritos</a>
+                    </div>
+                </div>
+                <div class = "card border-dark mb-3 mx-3" style="max-width: 15rem;">
+                    <img class="card-img-top" src="{% static 'assent/missa.jpg' %}" alt="Imagem de capa do card">
+                    <div class = "card-body" >
+                        <h5 class = "card-title">Como fazer o cadastro</h5>
+                        <p class = "card-text">Clique no botão abaixo que te levaremos ao tutorial de como se cadastrar e do porquê.</p>
+                        <a href="#" class="btn btn-primary" style = "background-color: #b8860b;">Remover favoritos</a>
+                    </div>
+                </div>
+                <div class = "card border-dark mb-3 mx-3" style="max-width: 15rem;">
+                    <img class="card-img-top" src="{% static 'assent/missa.jpg' %}" alt="Imagem de capa do card">
+                    <div class = "card-body" >
+                        <h5 class = "card-title">Como fazer o cadastro</h5>
+                        <p class = "card-text">Clique no botão abaixo que te levaremos ao tutorial de como se cadastrar e do porquê.</p>
+                        <a href="#" class="btn btn-primary" style = "background-color: #b8860b;">Remover favoritos</a>
+                    </div>
+                </div>
+    {% endblock %}
