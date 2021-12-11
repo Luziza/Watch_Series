@@ -9,3 +9,9 @@ class AboutPageView(TemplateView):
 
 class FavoritePageView(TemplateView):
     template_name = 'favoritos.html'
+
+class LoginPageView(TemplateView):
+    template_name = 'login.html'
+
+class MaidPageView(TemplateView):
+    template_name = 'maid.html'
