@@ -15,3 +15,6 @@ class LoginPageView(TemplateView):
 
 class MaidPageView(TemplateView):
     template_name = 'maid.html'
+
+class CadastroPageView(TemplateView):
+    template_name = 'cadastro.html'
