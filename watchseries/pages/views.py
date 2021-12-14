@@ -1,5 +1,11 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from django.views.generic import ListView
+from .models import Page
+
+class TestePageView(ListView):
+    model = Page
+    template_name = 'teste.html'
 
 class HomePageView(TemplateView):
     template_name = 'home.html'
