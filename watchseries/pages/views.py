@@ -3,6 +3,8 @@ from django.views.generic import TemplateView
 from django.views.generic import ListView
 from .models import Page
 
+
+
 class TestePageView(ListView):
     model = Page
     template_name = 'teste.html'

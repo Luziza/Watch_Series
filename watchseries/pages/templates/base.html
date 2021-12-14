@@ -41,7 +41,7 @@
           </div>
 
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{% url 'login' %}">Login</a>
+            <a class="nav-link active" aria-current="page" href="./accounts/login">Login</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -58,7 +58,7 @@
   <p><a href="{% url 'logout' %}">Log out</a></p>
 {% else %}
   <p>You are not logged in.</p>
-  <a href="{% url 'login' %}">Log In</a>
+  <a href="./accounts/login">Log In</a>
 {% endif %}
   
 <body> 
