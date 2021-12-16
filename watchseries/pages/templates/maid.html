@@ -4,5 +4,51 @@
 
       
     {% block content %}
+    <div class="row my-5">
+        <div class="col-4 mx-5">
+            <div class=" card border-0" style="width: 20rem;">
+                <img class="card-img-top" src="{% static 'assent/maid.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Genêro: Drama.</p>
+                  <p>Classificação indicativa: 16 anos.</p>
+                  <p>Temporadas: 1.</p>
+                  <p>Episódios: 10</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-5">
+            <div class=" card border-0 shadow rounded-3" style="width: 35rem; ">
+                <div class="card-body">
+                  <h5 class="card-title text-center">MAID</h5>
+                  <p class="card-text">Maid, minissérie original da Netflix, acompanha Alex (Margaret Qualley), uma jovem mãe que consegue um emprego limpando casas para escapar de um relacionamento abusivo. Depois de sofrer diversas violências nas mãos do ex-namorado, Sean (Nick Robinson), ela decide fugir com a filha para qualquer outro lugar na expectativa de um construir um futuro melhor para as duas. Além de tudo, ela ainda precisa lidar com a mãe (Andie McDowell) que sofre de distúrbio bipolar e está desaparecida. No caminho, ela é acolhida em um abrigo para jovens vítimas de abuso e começa a trabalhar como empregada doméstica para guardar dinheiro e tentar encontrar um lugar para morar com a filha.</p>
+                <br>
+                <p><h5>Plataformas:</h5></p>
+                <p> <img src="{% static 'assent/images.png' %}" width="110px" height="50x">
+                <br>
+                <br>
+                <p><h5>Atores:</h5></p>
+                <p>Margaret Qualley, Nick Robinson, Billy Burke, Andie MacDowell, Anika Noni Rose e Raymond Ablack.   
+                <br>       
+                <br>    
+                <p> <a href="#" class="btn btn-#F0B420;;" style = "background-color: #F0B420;">Adicionar nos favoritos</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" my-5 mx-5 card border-0 shadow rounded-3" style="width: 40rem;  ">
+        <div class="card-body">
+    <form >
+        <div class="form-group">
+          <label for="formGroupExampleInput">Nome</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome...">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Comentário</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Faça seu comentário">
+          </div>
+    </form>
+
 
     {% endblock %}
